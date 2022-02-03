@@ -95,3 +95,6 @@ body {
   height: 42vw;
 }
 }
+::-webkit-scrollbar {
+    display: none;
+}
