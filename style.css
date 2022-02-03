@@ -20,13 +20,14 @@ body {
 .text-container {
   color: white;
   float: left;
-  max-width: 40vw;
+  max-width: 50vw;
   padding-top: 20px;
   padding-left: 20px;
 }
 
 .yt-container {
   float: right;
+  max-width: 45vw;
   padding-top: 20px;
   padding-right: 20px;
 }
@@ -67,4 +68,19 @@ body {
 }
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media screen and (max-width: 800px) {
+  .text-container {
+  color: white;
+  float: center;
+  max-width: 80vw;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+  .yt-container {
+  float: center;
+  max-width: 80vw;
+  padding-top: 20px;
+  padding-right: 20px;
+}
 }
