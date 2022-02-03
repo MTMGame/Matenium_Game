@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  padding:0;
+  width: 100vw;
+  height: 100vh;
+}
+.section{
+  margin-top : 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 500px;
+}
+.text-container{
+  float: left;
+  max-width : 40vw;
+}
+.yt-container{
+  float: right;
+}
+.yt-container iframe{
+  border-radius: 30px;
+}
+.footer{
+  width: 100vw;
+  background: #000;
+  color:white;
+  bottom: 0;
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
