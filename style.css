@@ -9,6 +9,10 @@ body{
   margin-left: 50px;
   margin-right: 50px;
   min-height: 500px;
+  background-image: url('https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
 .text-container{
   float: left;
