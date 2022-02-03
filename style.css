@@ -5,33 +5,37 @@ body {
   height: 100vh;
 }
 .section {
-  margin-top: 70px;
-  margin-left: 50px;
-  margin-right: 50px;
-  min-height: 50vw;
+  margin-top: 7vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width: 96vw;
+  padding-bottom: 2vw;
+  min-height: 30vw;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border-radius: 50px;
+  border-radius: 5vw;
 }
 .text-container {
   color: white;
   float: left;
-  max-width: 45vw;
-  padding-top: 20px;
-  padding-left: 20px;
+  width: 48vw;
+  padding-top: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 .yt-container {
   float: right;
-  max-width: 45vw;
-  padding-top: 20px;
-  padding-right: 20px;
+  width: 48vw;
+  padding-top: 2vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
 }
 .yt-container iframe {
-  border-radius: 30px;
-  width: 40vw;
-  height: 22vw;
+  border-radius: 3vw;
+  width: 46vw;
+  height: 26vw;
 }
 .footer {
   width: 100vw;
@@ -68,31 +72,35 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .section {
-  margin-top: 70px;
-  margin-left: 50px;
-  margin-right: 50px;
-  min-height: 200vh;
+  margin-top: 7vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  min-height: 60vh;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border-radius: 50px;
+  border-radius: 5vw;
 }
   .text-container {
   color: white;
   float: center;
-  max-width: 90vw;
-  padding-top: 20px;
+  width: 96vw;
+  padding-top: 2vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
   .yt-container {
   float: center;
-  max-width: 90vw;
-  padding-top: 20px;
+  width: 96vw;
+  padding-top: 2vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
 }
   .yt-container iframe {
-  border-radius: 30px;
-  width: 75vw;
-  height: 42vw;
+  border-radius: 3vw;
+  width: 94vw;
+  height: 53vw;
 }
 }
 ::-webkit-scrollbar {
