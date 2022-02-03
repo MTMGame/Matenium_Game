@@ -16,11 +16,11 @@ body{
   border-radius:50px
 }
 .text-container{
+  color: white;
   float: left;
   max-width : 40vw;
   padding-top: 20px;
   padding-left: 20px;
-  color: white;
 }
 .yt-container{
   float: right;
