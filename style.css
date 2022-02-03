@@ -27,7 +27,7 @@ body {
 
 .yt-container {
   float: right;
-  max-width: 45vw;
+  max-width: 50vw;
   padding-top: 20px;
   padding-right: 20px;
 }
@@ -73,13 +73,13 @@ body {
   .text-container {
   color: white;
   float: center;
-  max-width: 80vw;
+  max-width: 90vw;
   padding-top: 20px;
   padding-left: 20px;
 }
   .yt-container {
   float: center;
-  max-width: 80vw;
+  max-width: 90vw;
   padding-top: 20px;
   padding-right: 20px;
 }
