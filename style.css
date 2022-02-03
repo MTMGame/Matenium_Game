@@ -3,6 +3,7 @@ body {
   padding: 0;
   width: 100vw;
   height: 100vh;
+  font-size: 100%;
 }
 .section {
   margin-top: 7vw;
@@ -10,7 +11,7 @@ body {
   margin-right: 2vw;
   width: 96vw;
   padding-bottom: 2vw;
-  min-height: 30vw;
+  min-height: 35vw;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -75,7 +76,7 @@ body {
   margin-top: 7vw;
   margin-left: 2vw;
   margin-right: 2vw;
-  min-height: 200vh;
+  min-height: 60vh;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background-repeat: no-repeat;
   background-attachment: fixed;
