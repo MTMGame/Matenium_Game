@@ -6,7 +6,7 @@ body {
   font-size: 100%;
 }
 .section {
-  margin-top: 7vw;
+  margin-top: 2vw;
   margin-left: 4vw;
   margin-right: 4vw;
   width: 92vw;
@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border-radius: 5vw;
+  border-radius: 3vw;
 }
 .text-container {
   color: white;
@@ -34,7 +34,7 @@ body {
   padding-left: 2vw;
 }
 .yt-container iframe {
-  border-radius: 3vw;
+  border-radius: 2vw;
   width: 42vw;
   height: 23vw;
 }
