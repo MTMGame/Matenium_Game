@@ -135,12 +135,14 @@ body {
 }
 
 /*nft info and flip*/
+@media screen and (min-width: 100px) and (max-width: 480px) {
 .wrapper{
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   position: relative;
   transform-style: preserve-3d;
  perspective: 1000px;
+  left: 40%;
 }
 .wrapper .card{
   position: absolute;
@@ -208,4 +210,225 @@ body {
   color: #1cc7d0;
   border-color: #1cc7d0;
   background: linear-gradient(375deg, transparent, transparent);
+}
+}
+@media screen and (max-width: 1000px) {
+  .section {
+  margin-top: 7vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  min-height: 60vh;
+  background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 5vw;
+}
+  .text-container {
+  color: white;
+  float: center;
+  width: 92vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+  .yt-container {
+  float: center;
+  width: 92vw;
+  padding-top: 2vw;
+  padding-right: 8vw;
+  padding-left: 8vw;
+}
+  .yt-container iframe {
+  border-radius: 3vw;
+  width: 76vw;
+  height: 38vw;
+}
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.carousel-indicator-buttons-stfu {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+.img{
+  max-width: 60%;
+  max-height: 60%;
+}
+#carousel {
+  text-align: center;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000 ' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*nft info and flip*/
+
+
+/*Mobile*/
+@media screen and (min-width: 10px) and (max-width: 480px) {
+.wrapper{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+ perspective: 1000px;
+  left: 5%;
+}
+.wrapper .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #000;
+  border-radius: 50%;
+  transform: translateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+}
+.wrapper:hover > .front-face{
+  transform: rotateY(-180deg);
+}
+.wrapper .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.wrapper .back-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+.wrapper:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.wrapper .back-face img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+.wrapper .back-face .info{
+  text-align: center;
+  color: #fff;
+}
+.back-face .info .title{
+  font-size: 30px;
+  font-weight: 500;
+}
+.back-face ul{
+  display: flex;
+}
+.back-face ul a{
+  display: block;
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  line-height: 50%;
+  border: 50% solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  transition: all 0.5s ease;
+}
+.back-face ul a:hover{
+  color: #1cc7d0;
+  border-color: #1cc7d0;
+  background: linear-gradient(375deg, transparent, transparent);
+}
+}
+
+
+
+/*PC View*/
+
+@media screen and (min-width: 480px) and (max-width: 1920px) {
+.wrapper{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+ perspective: 1000px;
+  left: 70%;
+}
+.wrapper .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: #000;
+  border-radius: 50%;
+  transform: translateY(0deg);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+}
+.wrapper:hover > .front-face{
+  transform: rotateY(-180deg);
+}
+.wrapper .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.wrapper .back-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+.wrapper:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.wrapper .back-face img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+}
+.wrapper .back-face .info{
+  text-align: center;
+  color: #fff;
+}
+.back-face .info .title{
+  font-size: 30px;
+  font-weight: 500;
+}
+.back-face ul{
+  display: flex;
+}
+.back-face ul a{
+  display: block;
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  line-height: 50%;
+  border: 50% solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  transition: all 0.5s ease;
+}
+.back-face ul a:hover{
+  color: #1cc7d0;
+  border-color: #1cc7d0;
+  background: linear-gradient(375deg, transparent, transparent);
+}
 }
