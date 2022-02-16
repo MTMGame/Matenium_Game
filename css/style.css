@@ -171,7 +171,7 @@ body {
 }
 
 /*nft info and flip*/
-@media screen and (min-width: 100px) and (max-width: 480px) {
+@media screen and (min-width: 100px) and (max-width: 900) {
 .wrapper{
   height: 200px;
   width: 200px;
@@ -248,7 +248,7 @@ body {
   background: linear-gradient(375deg, transparent, transparent);
 }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 900px) {
   .section {
   margin-top: 7vw;
   margin-left: 4vw;
