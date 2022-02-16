@@ -12,40 +12,40 @@ body {
             user-select: none;
 }
 .section {
-  margin-top: 2vw;
-  margin-left: 4vw;
-  margin-right: 4vw;
-  width: 92vw;
-  padding-bottom: 2vw;
-  min-height: 35vw;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-bottom: 20px;
+  min-height: 400px;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border-radius: 3vw;
+  border-radius: 25px;
 }
 .text-container {
   color: white;
   float: left;
-  width: 46vw;
-  padding-top: 2vw;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  width: 600px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .yt-container {
   float: right;
-  width: 46vw;
-  padding-top: 2vw;
-  padding-right: 2vw;
-  padding-left: 2vw;
+  width: 600px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 .yt-container iframe {
-  border-radius: 2vw;
-  width: 42vw;
-  height: 23vw;
+  border-radius: 15px;
+  width: 560px;
+  height: 315px;
 }
 .footer {
-  width: 100vw;
+  width: 100%;
   background: #000;
   color: white;
   bottom: 0;
@@ -77,37 +77,73 @@ body {
 .footer .copyright p {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .section {
-  margin-top: 7vw;
-  margin-left: 4vw;
-  margin-right: 4vw;
-  min-height: 60vh;
+  margin-top: 70px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 800px;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border-radius: 5vw;
+  border-radius: 40px;
 }
   .text-container {
   color: white;
   float: center;
-  width: 92vw;
-  padding-top: 2vw;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  width: 900px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-  .yt-container {
+ .yt-container {
+  float: right;
+  width: 600px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.yt-container iframe {
+  border-radius: 15px;
+  width: 560px;
+  height: 315px;
+}
+}
+@media screen and (max-width: 900px) {
+  .section {
+  margin-top: 70px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 800px;
+  background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  .text-container {
+  color: white;
   float: center;
-  width: 92vw;
-  padding-top: 2vw;
-  padding-right: 8vw;
-  padding-left: 8vw;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-  .yt-container iframe {
-  border-radius: 3vw;
-  width: 76vw;
-  height: 38vw;
+ .yt-container {
+  float: right;
+  width: 70vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-top: 20px;
+}
+.yt-container iframe {
+  width: 70vw;
+  height: 39vw;
+  border-radius: 0px;
 }
 }
 ::-webkit-scrollbar {
@@ -133,5 +169,4 @@ body {
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000 ' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-
 
