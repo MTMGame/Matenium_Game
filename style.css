@@ -12,7 +12,7 @@ body {
             user-select: none;
   transition: all 0.4s;
   background: rgb(27,38,44);
-  background: linear-gradient(0deg, rgba(27,38,44,1) 51%, rgba(255,255,0,1) 100%);
+  background: linear-gradient(0deg, rgba(27,38,44,1) 0%, rgba(15,76,117,1) 30%, rgba(50,130,178,1) 64%, rgba(253,187,45,1) 100%);
   background-repeat: no-repeat;
 }
 .section {
@@ -34,6 +34,7 @@ body {
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
+  opacity: 0.75;
 }
 .text-container {
   color: white;
