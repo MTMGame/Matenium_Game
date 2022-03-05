@@ -68,6 +68,8 @@ section{
   padding-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
+  background-color: #000;
+
 }
 .yt-container iframe {
   border-radius: 15px;
@@ -264,9 +266,20 @@ section{
 }
 .counter h1 {
   padding-bottom: 50px;
-  font-weight: normal;
-  text-transform: uppercase;
+  font-family: Monoton;
+  animation: neon1 1.5s ease-in-out infinite alternate;
 }
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #A020F0,
+      0 0 70px #A020F0, 0 0 80px #A020F0, 0 0 100px #A020F0, 0 0 150px #A020F0;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px#A020F0,
+      0 0 35px #A020F0, 0 0 40px #A020F0, 0 0 50px #A020F0, 0 0 75px #A020F0;
+  }
+}
+
 .counter li {
   display: inline-block;
   font-size: 20px;
@@ -277,6 +290,19 @@ section{
 }
 .counter li span {
   display: block;
+}
+#countdown{
+   font-family: Audiowide;
+   font-size: 7em;
+   font-weight: 1000;
+   background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 @media all and (max-width: 768px) {
   .counter h1 {
