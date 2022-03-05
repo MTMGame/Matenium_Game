@@ -8,7 +8,7 @@
       mm = String(today.getMonth() + 1).padStart(2, "0"),
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
-      dayMonth = "03/07/",
+      dayMonth = "04/07/",
       birthday = dayMonth + yyyy;
   today = mm + "/" + dd + "/" + yyyy;
   const countDown = new Date(birthday).getTime(),
