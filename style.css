@@ -263,6 +263,7 @@ section{
   text-align: center;
 }
 .counter h1 {
+  padding-bottom: 50px;
   font-weight: normal;
   text-transform: uppercase;
 }
