@@ -259,6 +259,38 @@ section{
   border-color: #1cc7d0;
   background: linear-gradient(375deg, transparent, transparent);
 }
+.container {
+  text-align: center;
+}
+.container h1 {
+  font-weight: normal;
+  letter-spacing: .125rem;
+  text-transform: uppercase;
+}
+.container li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+.container li span {
+  display: block;
+  font-size: 4.5rem;
+}
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
 ::-webkit-scrollbar {
     display: none;
 }
