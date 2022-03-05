@@ -32,6 +32,9 @@ body a:hover {
   text-shadow: 3px 3px 3px  #000000;
   top: -3px;
 }
+section{
+  margin-bottom: 50px;
+}
 .section {
   width: 100%;
   height: 450px;
