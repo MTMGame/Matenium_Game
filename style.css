@@ -264,7 +264,11 @@ section{
 .counter {
   text-align: center;
 }
-.counter h1 {
+.counter h1:nth-child(1) {
+  padding-bottom: 10px;
+  font-family: Audiowide;
+}
+.counter h1:nth-child(2) {
   padding-bottom: 50px;
   font-family: Monoton;
   animation: neon1 1.5s ease-in-out infinite alternate;
@@ -282,10 +286,9 @@ section{
 
 .counter li {
   display: inline-block;
-  font-size: 20px;
   list-style-type: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-transform: uppercase;
 }
 .counter li span {
@@ -293,7 +296,7 @@ section{
 }
 #countdown{
    font-family: Audiowide;
-   font-size: 7em;
+   font-size: 25px;
    font-weight: 1000;
    background: linear-gradient(
     to right, 
