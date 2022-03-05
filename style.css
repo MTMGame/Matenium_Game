@@ -44,11 +44,11 @@ body a:hover {
   padding: 20px;
 }
 .sec_bg{
+  margin-top: -30px;
   height: 450px;
   background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1349,w_2400,x_0,y_138/v1628703164/shape/mentalfloss/649273-youtube-rick_astley.jpg?itok=8JRk0Avu");
   background: linear-gradient(180deg, rgba(27,38,44,1) 51%, rgba(255,255,0,1) 100%);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
